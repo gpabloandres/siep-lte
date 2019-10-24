@@ -39,7 +39,7 @@
                           </div>
                           <!-- /.tab-pane -->
                           <div class="tab-pane" id="secciones">
-                            @include('centros.componentes.tab_secciones',['data'=>$secciones])
+                            @include('centros.componentes.tab_secciones',['data'=>$secciones,'id'=>$centro['id']])
                           </div>
                           <!-- /.tab-pane -->
                           <div class="tab-pane" id="titulaciones">
